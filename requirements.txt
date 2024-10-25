@@ -1,0 +1,10 @@
+pandas
+numpy
+dagshub
+dvc
+mlflow
+scikit-learn
+dvc-s3
+python-dotenv
+
+-e .

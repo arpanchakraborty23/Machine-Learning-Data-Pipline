@@ -1,0 +1,11 @@
+preprocess:
+  input: data/data.csv
+  output: artifact/preprocess/data.csv
+
+
+train:
+  data: artifact/preprocess/data.csv
+  model: artifact/model/model.pkl
+  random_state: 42
+  n_estimators: 100
+  mat_depth: 6
